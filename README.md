@@ -1,6 +1,8 @@
 # kubernetes-installation
 Script to setup kubernetes worker node
 
+***For a more complete documentation, please refer to official documentation [kubernetes](https://kubernetes.io/docs/setup/production-environment/tools/kubeadm/install-kubeadm/).***
+
 # Environment preparation for the Kubernetes
 
 ```
@@ -9,8 +11,8 @@ cd kubernetes-installation
 sudo bash installation_script.sh
 ```
 Summary tasks done in this script:
-1)Enable br_netfilter module\n
-2)Disable swap
-3)Install container runtime (Docker)
-4)Install kubeadm,kubectl,kubelet (1.19.3)
-5)Install NFS client
+- Enable br_netfilter module\n
+- Disable swap
+- Install container runtime (Docker)
+- Install kubeadm,kubectl,kubelet (1.19.3)
+- Install NFS client
