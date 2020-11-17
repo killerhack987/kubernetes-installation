@@ -27,3 +27,10 @@ kubeadm join 1.2.3.4:6443 --token yabc8ek.p1wphafasdasdasd \
 ```
 kubeadm token create --print-join-command
 ```
+# (Optional) Setting up single node Kubernetes master node
+To deploy a new cluster with single master node, ```master.sh``` can be used.
+```
+bash master.sh
+```
+# (Optional) Setting up high availability (HA) master nodes
+To setup HA master nodes, here is some reference links.[link1](https://www.programmersought.com/article/5222255935/) [link2](https://linuxscriptshub.com/haproxy-with-keepalived-setup-for-ubuntu-16-04/) [link3](https://github.com/kubernetes/kubeadm/blob/master/docs/ha-considerations.md#keepalived-and-haproxy) 
