@@ -11,7 +11,7 @@ cd kubernetes-installation
 sudo bash installation_script.sh
 ```
 Summary tasks done in this script:
-- Enable br_netfilter module\n
+- Enable br_netfilter module
 - Disable swap
 - Install container runtime (Docker)
 - Install kubeadm,kubectl,kubelet (1.19.3)
