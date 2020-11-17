@@ -4,7 +4,7 @@ Script to setup kubernetes worker node
 ***For a more complete documentation, please refer to official documentation [kubernetes](https://kubernetes.io/docs/setup/production-environment/tools/kubeadm/install-kubeadm/).***
 
 # Environment preparation for the Kubernetes
-
+This is tested on freshly installed ubuntu server 18.04.
 ```
 git clone https://github.com/skywood123/kubernetes-installation.git
 cd kubernetes-installation
