@@ -4,7 +4,7 @@ Script to setup kubernetes worker node
 # Environment preparation for the Kubernetes
 
 ```
-git clone abcd
+git clone https://github.com/skywood123/kubernetes-installation.git
 cd kubernetes-installation
 sudo bash installation_script.sh
 ```
