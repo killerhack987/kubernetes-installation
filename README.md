@@ -8,7 +8,7 @@ This is tested on freshly installed ubuntu server 18.04.
 ```
 git clone https://github.com/skywood123/kubernetes-installation.git
 cd kubernetes-installation
-sudo bash installation_script.sh
+sudo bash kubernetes_environment.sh
 ```
 Summary tasks done in this script:
 - Enable br_netfilter module
@@ -30,7 +30,7 @@ kubeadm token create --print-join-command
 # (Optional) Setting up single node Kubernetes master node
 To deploy a new cluster with single master node, ```master.sh``` can be used.
 ```
-bash master.sh
+bash kubernetes_master.sh
 ```
 # (Optional) Setting up high availability (HA) master nodes
 To setup HA master nodes, here are some reference links.
