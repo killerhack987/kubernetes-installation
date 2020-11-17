@@ -33,4 +33,7 @@ To deploy a new cluster with single master node, ```master.sh``` can be used.
 bash master.sh
 ```
 # (Optional) Setting up high availability (HA) master nodes
-To setup HA master nodes, here is some reference links.[link1](https://www.programmersought.com/article/5222255935/) [link2](https://linuxscriptshub.com/haproxy-with-keepalived-setup-for-ubuntu-16-04/) [link3](https://github.com/kubernetes/kubeadm/blob/master/docs/ha-considerations.md#keepalived-and-haproxy) 
+To setup HA master nodes, here are some reference links.
+- [link1](https://www.programmersought.com/article/5222255935/) 
+- [link2](https://linuxscriptshub.com/haproxy-with-keepalived-setup-for-ubuntu-16-04/) 
+- [link3](https://github.com/kubernetes/kubeadm/blob/master/docs/ha-considerations.md#keepalived-and-haproxy) 
