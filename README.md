@@ -16,3 +16,14 @@ Summary tasks done in this script:
 - Install container runtime (Docker)
 - Install kubeadm,kubectl,kubelet (1.19.3)
 - Install NFS client
+
+## If this machine is a kubernetes worker node, get this command from the cluster adminstrator or the master node.
+This command is used by Kubernetes worker node to join the cluster.
+```
+kubeadm join 1.2.3.4:6443 --token yabc8ek.p1wphafasdasdasd \
+    --discovery-token-ca-cert-hash sha256:335d15fa24ce5359asdasdasd
+```
+### To get this command at master node, used the following command.
+```
+kubeadm token create --print-join-command
+```
