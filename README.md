@@ -3,11 +3,11 @@ Script to setup kubernetes worker node
 
 # Environment preparation for the Kubernetes
 
-'''
+```
 git clone abcd
 cd kubernetes-installation
 sudo bash installation_script.sh
-'''
+```
 Summary tasks done in this script:
 1)Enable br_netfilter module
 2)Disable swap
